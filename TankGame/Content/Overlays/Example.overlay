@@ -1,0 +1,291 @@
+HUD
+{
+    zorder 200
+
+    container Panel(HUD/Panel)
+    {
+        metrics_mode relative
+
+        left 0.5
+        top 0.9
+        width 0.45
+        height 0.2
+
+        element TextArea(HUD/Panel/Text1)
+        {
+            metrics_mode relative
+
+            left -0.45
+            top  0.05
+
+            font_name BlueHighwayBig
+            char_height 0.05
+            colour 1 1 1
+            caption Health: 100
+        }
+
+        element TextArea(HUD/Panel/Text2)
+        {
+            metrics_mode relative
+
+            left 0.3
+            top  0.05
+
+            font_name BlueHighwayBig
+            char_height 0.05
+            colour 1 1 1
+            caption Ammo: 20
+        }
+    }
+
+    container Panel(HUD/Panel2)
+    {
+        left    0.28
+        top     0
+        width   0.5
+        height  0.1
+
+        element TextArea(HUD/Panel2/Text1)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0
+
+            font_name BlueHighwayBig
+            char_height 0.05
+            colour 1 1 1
+        }
+    }
+
+    container Panel(HUD/Panel3)
+    {
+        left    0.5
+        top     0.3
+        width   0.5
+        height  0.1
+
+        element TextArea(HUD/Panel3/Text1)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0
+
+            font_name BlueHighwayBig
+            char_height 0.05
+            colour 1 1 1
+            caption .
+        }
+
+        element TextArea(HUD/Panel3/Text2)
+        {
+            metrics_mode relative
+
+            left -0.2
+            top  0.2
+
+            font_name BlueHighwayBig
+            char_height 0.05
+            colour 1 1 1
+        }
+    }
+
+    container Panel(HUD/Panel4)
+    {
+        left    0.02
+        top     0.3
+        width   0.5
+        height  0.1
+
+        element TextArea(HUD/Panel4/Text1)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Player: 0
+        }
+
+        element TextArea(HUD/Panel4/Text2)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.04
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 1: 0
+        }
+        element TextArea(HUD/Panel4/Text3)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.08
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 2: 0
+        }
+        element TextArea(HUD/Panel4/Text4)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.12
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 3: 0
+        }
+        element TextArea(HUD/Panel4/Text5)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.16
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 4: 0
+        }
+        element TextArea(HUD/Panel4/Text6)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.20
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 5: 0
+        }
+
+        element TextArea(HUD/Panel4/Text7)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.24
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 6: 0
+        }
+        element TextArea(HUD/Panel4/Text8)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.28
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 7: 0
+        }
+        element TextArea(HUD/Panel4/Text9)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.32
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 8: 0
+        }
+        element TextArea(HUD/Panel4/Text10)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.36
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 9: 0
+        }
+        element TextArea(HUD/Panel4/Text11)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.40
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 10: 0
+        }
+
+        element TextArea(HUD/Panel4/Text12)
+        {
+            metrics_mode relative
+
+            left 0
+            top  0.44
+
+            font_name BlueHighwayBig
+            char_height 0.03
+            colour 1 1 1
+            caption Bot 11: 0
+        }
+    }
+}
+
+
+// Sample/Overlay1   // You can name this anything you like.  
+// {
+    // container Panel(Sample/Overlay1/Panel) //  You can name this anything you like.  The directory-like structure is purely optional
+    // {
+
+		// material BlueSemiTran
+		
+		// left 0.1
+		// top 0.3
+		// width 0.8
+		// height 0.4
+
+		
+	  	// element TextArea(Sample/TextArea1)
+		// {
+		// metrics_mode relative
+		
+         // left 0.1
+		 // top 0.05
+         // font_name BlueHighwayBig
+         // char_height 0.05
+         // colour 1 1 1
+         // caption Sample Text Here
+		// }
+		
+		// element TextArea(Sample/TextArea2)
+		// {
+		// metrics_mode relative
+		
+         // left 0.1
+		 // top 0.2
+         // font_name BlueHighwayBig
+         // char_height 0.05
+         // colour 1 1 1
+         // caption More Sample Text Here
+		// }
+		
+		
+    // }   
+// }
